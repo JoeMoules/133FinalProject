@@ -1,16 +1,15 @@
 # one_thirty_three_project
 
-meal planning app for CMP133
+Meal planning app for CMP133
 
-## Getting Started
+## Libraries Used in This Project
 
-This project is a starting point for a Flutter application.
+The four libraries used within this project are as follows
+  - SQFlite
+  - Path
+  - Path_provider
+  - Firebase 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+These libraries are automatically acquired once pubget is ran. This option is available at the top of the file when viewing pubspec.yaml in Android Studio. 
+## Building and Running the Project
+These libraries are automatically acquired once pubget is ran. Upon getting these dependencies and setting the destination to the Dart and Flutter SDK within Android Studio, the project can be built by either setting up an emulator or connecting a device and running with a run configuration that uses main.dart as the entry point of the application. 
