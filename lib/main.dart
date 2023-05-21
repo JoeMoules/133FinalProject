@@ -142,7 +142,10 @@ class Home extends StatelessWidget {
                 primary: Colors.yellow,
                 onPrimary: Colors.black,
               ),
-              onPressed: signOut,
+              onPressed: () {
+                signOut();
+                Navigator.pushNamed( context, 'SignIn', );
+              },
               child: const Text('Sign Out'),
             ),
             const SizedBox(height: 30),
