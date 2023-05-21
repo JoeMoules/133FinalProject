@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
@@ -10,7 +9,7 @@ List<Ingredient> ingredientList = [
   Ingredient(name: '1oz of Chicken', calories: 30),
   Ingredient(name: '1 Egg', calories: 75),
   Ingredient(name: '1oz of Tofu', calories: 95),
-  Ingredient(name: 'slice of bread', calories: 100),
+  Ingredient(name: 'Slice of bread', calories: 100),
   Ingredient(name: 'Cup of Rice', calories: 205),
   Ingredient(name: 'Cup of Milk', calories: 100),
   Ingredient(name: 'Cup of Cereal', calories: 300),
@@ -114,7 +113,6 @@ class DatabaseHelper {
     await db.insert('list', chickenAndRice.toMap());
     await db.insert('list', omelette.toMap());
     await db.insert('list', tofuFriedRice.toMap());
-    await db.insert('list', friedChicken.toMap());
     await db.insert('list', dairyDelight.toMap());
   }
   //add restrictions to database
