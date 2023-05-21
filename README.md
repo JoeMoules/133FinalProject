@@ -1,6 +1,6 @@
 # one_thirty_three_project
 
-Meal planning app for CMP133
+Meal planning app for CMPE133
 
 ## Libraries Used in This Project
 
