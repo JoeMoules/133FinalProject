@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "938251315287",
+    "project_id": "cmpe-133-my-next-meal",
+    "storage_bucket": "cmpe-133-my-next-meal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938251315287:android:cf35e77cfffbf63e269b12",
+        "android_client_info": {
+          "package_name": "com.example.one_thirty_three_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938251315287-24uobp3vr48t62r6q566f7neqk5lt2kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxdQntwSCfWz60HwwRfnq363FfoHWsMBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938251315287-24uobp3vr48t62r6q566f7neqk5lt2kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
